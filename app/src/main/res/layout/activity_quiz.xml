@@ -9,7 +9,7 @@
     tools:context=".QuizActivity">
 
     <TextView
-        android:id="@+id/score"
+        android:id="@+id/view_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/oswald"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Question: 1/x"
-        android:layout_below="@+id/score"
+        android:layout_below="@+id/view_score"
         android:textColor="@color/black"
 
         />

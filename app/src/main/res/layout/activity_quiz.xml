@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/oswald"
         android:text="Score: 0"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:freezesText="true"/>
 
     <TextView
         android:id="@+id/question_count"
@@ -23,6 +24,7 @@
         android:text="Question: 1/x"
         android:layout_below="@+id/view_score"
         android:textColor="@color/black"
+        android:freezesText="true"
 
         />
 
@@ -34,7 +36,8 @@
         android:textColor="@color/black"
         android:text="00:30"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:freezesText="true"/>
 
 
 
@@ -46,6 +49,7 @@
         app:cardCornerRadius="12dp"
         app:cardElevation="20dp"
         app:cardPreventCornerOverlap="false"
+
         >
 
         <LinearLayout
@@ -64,6 +68,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:freezesText="true"
                 />
 
 
@@ -71,25 +76,29 @@
                 android:id="@+id/group_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true">
+                android:layout_centerVertical="true"
+                android:freezesText="true">
 
                 <RadioButton
                     android:id="@+id/btn1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Option 1" />
+                    android:text="Option 1"
+                    android:freezesText="true"/>
 
                 <RadioButton
                     android:id="@+id/btn2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Option 2" />
+                    android:text="Option 2"
+                    android:freezesText="true"/>
 
                 <RadioButton
                     android:id="@+id/btn3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Option 3" />
+                    android:text="Option 3"
+                    android:freezesText="true"/>
             </RadioGroup>
 
             <Button
@@ -100,7 +109,8 @@
                 android:layout_marginTop="16dp"
                 android:width="260dp"
                 android:background="@drawable/button_gradiant"
-                android:text="Confirm" />
+                android:text="Confirm"
+                android:freezesText="true"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
